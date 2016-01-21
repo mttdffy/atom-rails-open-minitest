@@ -1,11 +1,11 @@
 {
   "name": "rails-open-minitest",
   "main": "./lib/rails-open-minitest",
-  "version": "0.0.0",
-  "description": "A short description of your package",
+  "version": "0.0.1",
+  "description": "Open Minitest file corresponding to the current file",
   "keywords": [
   ],
-  "repository": "https://github.com/atom/rails-open-minitest",
+  "repository": "https://github.com/5t111111/atom-rails-open-minitest",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
