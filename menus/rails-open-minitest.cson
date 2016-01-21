@@ -1,0 +1,22 @@
+# See https://atom.io/docs/latest/hacking-atom-package-word-count#menus for more details
+# 'context-menu':
+#   'atom-text-editor': [
+#     {
+#       'label': 'Toggle rails-open-minitest'
+#       'command': 'rails-open-minitest:toggle'
+#     }
+#   ]
+'menu': [
+  {
+    'label': 'Packages'
+    'submenu': [
+      'label': 'Rails Open Minitest'
+      'submenu': [
+        {
+          'label': 'Open Minitest File'
+          'command': 'rails-open-minitest:open-minitest-file'
+        }
+      ]
+    ]
+  }
+]
