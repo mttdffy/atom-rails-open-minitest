@@ -28,10 +28,10 @@ module.exports =
 
     if @isTestFile(relativePath)
       openFilePath = relativePath.replace /\_test\.rb$/, '.rb'
-      openFilePath = openFilePath.replace /^\/test\//, "/app/"
+      openFilePath = openFilePath.replace /\/test\//, "/app/"
     else
       openFilePath = relativePath.replace /\.rb$/, '_test.rb'
-      openFilePath = openFilePath.replace /^\/app\//, "/test/"
+      openFilePath = openFilePath.replace /\/app\//, "/test/"
 
     return null if relativePath == openFilePath
     Path.join(rootPath, openFilePath)
